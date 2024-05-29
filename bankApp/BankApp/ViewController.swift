@@ -8,43 +8,43 @@
 import UIKit
 import SQLite
 
-func copyDatabaseIfNeeded(sourcePath: String) -> Bool
-{
+func copyDatabaseIfNeeded(sourcePath: String) -> Bool {
     let documents = NSSearchPathForDirectoriesInDomains(.documentDirectory, .userDomainMask, true).first!
     let destinationPath = documents + "/db.sqlite3"
     let exists = FileManager.default.fileExists(atPath: destinationPath)
-    guard !exists else { return false }
+    guard !exists else {
+        return false
+    }
     do {
         try FileManager.default.copyItem(atPath: sourcePath, toPath: destinationPath)
         return true
     } catch {
-      print("error during file copy: \(error)")
+        print("error during file copy: \(error)")
         return false
     }
 }
 
 class ViewController: UIViewController {
-    var userId:Int64?
+    var userId: Int64?
     @IBOutlet weak var errorLabel: UILabel!
     @IBOutlet weak var passwordField: UITextField!
     @IBOutlet weak var usernameField: UITextField!
-    @IBAction func tryLogin(_ sender: Any)
-    {
+
+    @IBAction func tryLogin(_ sender: Any) {
         let path = Bundle.main.path(forResource: "db", ofType: "sqlite3")!
         let user_id = Expression<Int64>("user_id")
         let username = Expression<String>("username")
         let password = Expression<String>("password")
         let users = Table("users")
-        do{
+        do {
             let db = try Connection(path, readonly: true)
             let cur_username = usernameField.text
             let cur_password = passwordField.text
             var flag = false
-            for user in try db.prepare(users){
-                if (user[username] == cur_username && user[password] == cur_password)
-                {
+            for user in try db.prepare(users) {
+                if (user[username] == cur_username && user[password] == cur_password) {
                     let storyBoard = UIStoryboard(name: "Main", bundle: nil)
-                    
+
                     let viewController = storyBoard.instantiateViewController(identifier: "ViewControllerMenu") as! ViewControllerMenu
                     viewController.receivedUserId = user[user_id]
                     self.present(viewController, animated: false, completion: nil)
@@ -52,11 +52,11 @@ class ViewController: UIViewController {
                     flag = true
                 }
             }
-            if (!flag){
+            if (!flag) {
                 errorLabel.text = "invalid username or password"
 
             }
-        }catch{
+        } catch {
             print("error connectng data base")
             return
         }

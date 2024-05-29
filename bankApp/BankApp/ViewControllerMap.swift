@@ -9,17 +9,17 @@ import UIKit
 
 class ViewControllerMap: UIViewController {
 
-    @IBAction func goBack(_ sender: Any)
-    {
+    @IBAction func goBack(_ sender: Any) {
         self.dismiss(animated: false, completion: nil)
     }
+
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
         // передаю привет всему сообществу мафии демидов
     }
-    
+
 
     /*
     // MARK: - Navigation

@@ -8,34 +8,34 @@
 import UIKit
 
 class ViewControllerMenu: UIViewController {
-    var receivedUserId : Int64?
+    var receivedUserId: Int64?
 
-    @IBAction func openConverter(_ sender: Any)
-    {
+    @IBAction func openConverter(_ sender: Any) {
         let storyBoard = UIStoryboard(name: "Main", bundle: nil)
-        
+
         let viewController = storyBoard.instantiateViewController(identifier: "converter")
         self.present(viewController, animated: false, completion: nil)
     }
-    @IBAction func openMap(_ sender: Any)
-    {
+
+    @IBAction func openMap(_ sender: Any) {
         let storyBoard = UIStoryboard(name: "Main", bundle: nil)
-        
+
         let viewController = storyBoard.instantiateViewController(identifier: "map")
         self.present(viewController, animated: false, completion: nil)
     }
-    @IBAction func openTable(_ sender: Any)
-    {
+
+    @IBAction func openTable(_ sender: Any) {
         let storyBoard = UIStoryboard(name: "Main", bundle: nil)
-        
+
         let viewController = storyBoard.instantiateViewController(identifier: "accounts") as! ViewControllerAccounts
         viewController.userId = receivedUserId
         self.present(viewController, animated: false, completion: nil)
     }
-    @IBAction func goBack(_ sender: Any)
-    {
+
+    @IBAction func goBack(_ sender: Any) {
         self.dismiss(animated: false, completion: nil)
     }
+
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -46,7 +46,6 @@ class ViewControllerMenu: UIViewController {
         }
     }
 
-    
 
     /*
     // MARK: - Navigation

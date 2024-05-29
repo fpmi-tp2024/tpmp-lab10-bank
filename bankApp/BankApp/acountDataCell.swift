@@ -10,14 +10,14 @@ import UIKit
 class acountDataCell: UITableViewCell {
 
     static let identifier = "acountDataCell"
-    
+
     @IBOutlet weak var dataLabel: UILabel!
     @IBOutlet weak var titleLabel: UILabel!
-    static func nib() -> UINib
-    {
+
+    static func nib() -> UINib {
         return UINib(nibName: "acountDataCell", bundle: nil)
     }
-    
+
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
@@ -28,5 +28,5 @@ class acountDataCell: UITableViewCell {
 
         // Configure the view for the selected state
     }
-    
+
 }
