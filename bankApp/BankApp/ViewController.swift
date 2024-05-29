@@ -2,7 +2,7 @@
 //  ViewController.swift
 //  BankApp
 //
-//  Created by DIma on 27.05.24.
+//   Created by DIma, Demid and Dora, Masha. DEATH PACT. on 27.05.24.
 //
 
 import UIKit
@@ -63,13 +63,8 @@ class ViewController: UIViewController {
     }
 
 
-    
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-
     }
-
-
 }
 

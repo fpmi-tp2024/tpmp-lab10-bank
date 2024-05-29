@@ -2,7 +2,7 @@
 //  ViewControllerAccounts.swift
 //  BankApp
 //
-//  Created by DIma on 28.05.24.
+//   Created by DIma, Demid and Dora, Masha. DEATH PACT. on 28.05.24.
 //
 
 import UIKit
@@ -75,16 +75,17 @@ class ViewControllerAccounts: UIViewController
 
 }
 extension ViewControllerAccounts: UITableViewDataSource, UITableViewDelegate{
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return dataSourceArray.count
+    }
+
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: accountsCell.identifier, for: indexPath) as! accountsCell
         cell.customLabel.text = dataSourceArray[indexPath.row]
         return cell
     }
-    
-    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return dataSourceArray.count
-    }
-    
+
+
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         print("selected:\(idArray[indexPath.row])")
         let storyBoard = UIStoryboard(name: "Main", bundle: nil)

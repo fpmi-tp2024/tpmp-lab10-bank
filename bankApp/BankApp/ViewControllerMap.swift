@@ -2,7 +2,7 @@
 //  ViewControllerMap.swift
 //  BankApp
 //
-//  Created by DIma on 29.05.24.
+//   Created by DIma, Demid and Dora, Masha. DEATH PACT. on 29.05.24.
 //
 
 import UIKit
@@ -17,6 +17,7 @@ class ViewControllerMap: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        // передаю привет всему сообществу мафии демидов
     }
     
 

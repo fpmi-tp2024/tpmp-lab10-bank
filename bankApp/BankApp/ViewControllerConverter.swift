@@ -2,7 +2,7 @@
 //  ViewControllerConverter.swift
 //  BankApp
 //
-//  Created by DIma on 28.05.24.
+//   Created by DIma, Demid and Dora, Masha. DEATH PACT. on 28.05.24.
 //
 
 import UIKit
