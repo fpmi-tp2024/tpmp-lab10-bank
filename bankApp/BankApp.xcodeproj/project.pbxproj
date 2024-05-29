@@ -1,0 +1,434 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		323F8B242C074807004DDE2F /* ViewControllerMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 323F8B232C074807004DDE2F /* ViewControllerMap.swift */; };
+		3282EF2B2C0628DD007AA35D /* ViewControllerAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3282EF2A2C0628DD007AA35D /* ViewControllerAccount.swift */; };
+		3282EF302C064B65007AA35D /* accountsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3282EF2E2C064B65007AA35D /* accountsCell.swift */; };
+		3282EF312C064B65007AA35D /* accountsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3282EF2F2C064B65007AA35D /* accountsCell.xib */; };
+		3282EF342C06564F007AA35D /* acountDataCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3282EF322C06564F007AA35D /* acountDataCell.swift */; };
+		3282EF352C06564F007AA35D /* acountDataCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3282EF332C06564F007AA35D /* acountDataCell.xib */; };
+		3282EF372C0668A5007AA35D /* ViewControllerConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3282EF362C0668A5007AA35D /* ViewControllerConverter.swift */; };
+		329008B62C04E4DA00DD6910 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 329008B52C04E4DA00DD6910 /* AppDelegate.swift */; };
+		329008B82C04E4DA00DD6910 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 329008B72C04E4DA00DD6910 /* SceneDelegate.swift */; };
+		329008BA2C04E4DA00DD6910 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 329008B92C04E4DA00DD6910 /* ViewController.swift */; };
+		329008BD2C04E4DA00DD6910 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 329008BB2C04E4DA00DD6910 /* Main.storyboard */; };
+		329008BF2C04E4E300DD6910 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 329008BE2C04E4E300DD6910 /* Assets.xcassets */; };
+		329008C22C04E4E300DD6910 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 329008C02C04E4E300DD6910 /* LaunchScreen.storyboard */; };
+		329008CA2C04E6D300DD6910 /* base.db in Resources */ = {isa = PBXBuildFile; fileRef = 329008C92C04E6D300DD6910 /* base.db */; };
+		329008CD2C04E9BD00DD6910 /* SQLite in Frameworks */ = {isa = PBXBuildFile; productRef = 329008CC2C04E9BD00DD6910 /* SQLite */; };
+		329008CF2C0530C700DD6910 /* db.sqlite3 in Resources */ = {isa = PBXBuildFile; fileRef = 329008CE2C0530C700DD6910 /* db.sqlite3 */; };
+		3294272F2C05FDF1006B86F1 /* ViewControllerMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3294272E2C05FDF1006B86F1 /* ViewControllerMenu.swift */; };
+		329427312C060F60006B86F1 /* ViewControllerAccounts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 329427302C060F5F006B86F1 /* ViewControllerAccounts.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		323F8B232C074807004DDE2F /* ViewControllerMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerMap.swift; sourceTree = "<group>"; };
+		3282EF2A2C0628DD007AA35D /* ViewControllerAccount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerAccount.swift; sourceTree = "<group>"; };
+		3282EF2E2C064B65007AA35D /* accountsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = accountsCell.swift; sourceTree = "<group>"; };
+		3282EF2F2C064B65007AA35D /* accountsCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = accountsCell.xib; sourceTree = "<group>"; };
+		3282EF322C06564F007AA35D /* acountDataCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = acountDataCell.swift; sourceTree = "<group>"; };
+		3282EF332C06564F007AA35D /* acountDataCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = acountDataCell.xib; sourceTree = "<group>"; };
+		3282EF362C0668A5007AA35D /* ViewControllerConverter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerConverter.swift; sourceTree = "<group>"; };
+		329008B22C04E4DA00DD6910 /* BankApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BankApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		329008B52C04E4DA00DD6910 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		329008B72C04E4DA00DD6910 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		329008B92C04E4DA00DD6910 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		329008BC2C04E4DA00DD6910 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		329008BE2C04E4E300DD6910 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		329008C12C04E4E300DD6910 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		329008C32C04E4E300DD6910 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		329008C92C04E6D300DD6910 /* base.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = base.db; sourceTree = "<group>"; };
+		329008CE2C0530C700DD6910 /* db.sqlite3 */ = {isa = PBXFileReference; lastKnownFileType = file; name = db.sqlite3; path = BankApp/db.sqlite3; sourceTree = "<group>"; };
+		3294272E2C05FDF1006B86F1 /* ViewControllerMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerMenu.swift; sourceTree = "<group>"; };
+		329427302C060F5F006B86F1 /* ViewControllerAccounts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerAccounts.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		329008AF2C04E4DA00DD6910 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				329008CD2C04E9BD00DD6910 /* SQLite in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		329008A92C04E4DA00DD6910 = {
+			isa = PBXGroup;
+			children = (
+				329008CE2C0530C700DD6910 /* db.sqlite3 */,
+				329008B42C04E4DA00DD6910 /* BankApp */,
+				329008B32C04E4DA00DD6910 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		329008B32C04E4DA00DD6910 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				329008B22C04E4DA00DD6910 /* BankApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		329008B42C04E4DA00DD6910 /* BankApp */ = {
+			isa = PBXGroup;
+			children = (
+				329008C92C04E6D300DD6910 /* base.db */,
+				329008B52C04E4DA00DD6910 /* AppDelegate.swift */,
+				329008B72C04E4DA00DD6910 /* SceneDelegate.swift */,
+				329008B92C04E4DA00DD6910 /* ViewController.swift */,
+				3294272E2C05FDF1006B86F1 /* ViewControllerMenu.swift */,
+				329427302C060F5F006B86F1 /* ViewControllerAccounts.swift */,
+				3282EF2A2C0628DD007AA35D /* ViewControllerAccount.swift */,
+				3282EF362C0668A5007AA35D /* ViewControllerConverter.swift */,
+				323F8B232C074807004DDE2F /* ViewControllerMap.swift */,
+				3282EF2E2C064B65007AA35D /* accountsCell.swift */,
+				3282EF2F2C064B65007AA35D /* accountsCell.xib */,
+				3282EF322C06564F007AA35D /* acountDataCell.swift */,
+				3282EF332C06564F007AA35D /* acountDataCell.xib */,
+				329008BB2C04E4DA00DD6910 /* Main.storyboard */,
+				329008BE2C04E4E300DD6910 /* Assets.xcassets */,
+				329008C02C04E4E300DD6910 /* LaunchScreen.storyboard */,
+				329008C32C04E4E300DD6910 /* Info.plist */,
+			);
+			path = BankApp;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		329008B12C04E4DA00DD6910 /* BankApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 329008C62C04E4E300DD6910 /* Build configuration list for PBXNativeTarget "BankApp" */;
+			buildPhases = (
+				329008AE2C04E4DA00DD6910 /* Sources */,
+				329008AF2C04E4DA00DD6910 /* Frameworks */,
+				329008B02C04E4DA00DD6910 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BankApp;
+			packageProductDependencies = (
+				329008CC2C04E9BD00DD6910 /* SQLite */,
+			);
+			productName = BankApp;
+			productReference = 329008B22C04E4DA00DD6910 /* BankApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		329008AA2C04E4DA00DD6910 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					329008B12C04E4DA00DD6910 = {
+						CreatedOnToolsVersion = 13.4;
+					};
+				};
+			};
+			buildConfigurationList = 329008AD2C04E4DA00DD6910 /* Build configuration list for PBXProject "BankApp" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 329008A92C04E4DA00DD6910;
+			packageReferences = (
+				329008CB2C04E9BD00DD6910 /* XCRemoteSwiftPackageReference "SQLite" */,
+			);
+			productRefGroup = 329008B32C04E4DA00DD6910 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				329008B12C04E4DA00DD6910 /* BankApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		329008B02C04E4DA00DD6910 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				329008CF2C0530C700DD6910 /* db.sqlite3 in Resources */,
+				329008C22C04E4E300DD6910 /* LaunchScreen.storyboard in Resources */,
+				329008BF2C04E4E300DD6910 /* Assets.xcassets in Resources */,
+				329008CA2C04E6D300DD6910 /* base.db in Resources */,
+				329008BD2C04E4DA00DD6910 /* Main.storyboard in Resources */,
+				3282EF312C064B65007AA35D /* accountsCell.xib in Resources */,
+				3282EF352C06564F007AA35D /* acountDataCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		329008AE2C04E4DA00DD6910 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				329008BA2C04E4DA00DD6910 /* ViewController.swift in Sources */,
+				3282EF372C0668A5007AA35D /* ViewControllerConverter.swift in Sources */,
+				3282EF302C064B65007AA35D /* accountsCell.swift in Sources */,
+				323F8B242C074807004DDE2F /* ViewControllerMap.swift in Sources */,
+				329008B62C04E4DA00DD6910 /* AppDelegate.swift in Sources */,
+				3282EF342C06564F007AA35D /* acountDataCell.swift in Sources */,
+				329427312C060F60006B86F1 /* ViewControllerAccounts.swift in Sources */,
+				329008B82C04E4DA00DD6910 /* SceneDelegate.swift in Sources */,
+				3282EF2B2C0628DD007AA35D /* ViewControllerAccount.swift in Sources */,
+				3294272F2C05FDF1006B86F1 /* ViewControllerMenu.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		329008BB2C04E4DA00DD6910 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				329008BC2C04E4DA00DD6910 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		329008C02C04E4E300DD6910 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				329008C12C04E4E300DD6910 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		329008C42C04E4E300DD6910 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		329008C52C04E4E300DD6910 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		329008C72C04E4E300DD6910 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HNN6DK76Z8;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BankApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dima.BankApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		329008C82C04E4E300DD6910 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HNN6DK76Z8;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BankApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dima.BankApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		329008AD2C04E4DA00DD6910 /* Build configuration list for PBXProject "BankApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				329008C42C04E4E300DD6910 /* Debug */,
+				329008C52C04E4E300DD6910 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		329008C62C04E4E300DD6910 /* Build configuration list for PBXNativeTarget "BankApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				329008C72C04E4E300DD6910 /* Debug */,
+				329008C82C04E4E300DD6910 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		329008CB2C04E9BD00DD6910 /* XCRemoteSwiftPackageReference "SQLite" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/stephencelis/SQLite.swift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.9.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		329008CC2C04E9BD00DD6910 /* SQLite */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 329008CB2C04E9BD00DD6910 /* XCRemoteSwiftPackageReference "SQLite" */;
+			productName = SQLite;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 329008AA2C04E4DA00DD6910 /* Project object */;
+}
