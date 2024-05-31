@@ -4,7 +4,7 @@ This Swift-based mobile banking application enables users to access a range of b
 ### Installation
 To install and run this project, do the following:
 1. Clone this repository:
-  `add link`
+  `git clone https://github.com/fpmi-tp2024/tpmp-lab10-bank.git`
 2. Go to the project directory:
    `cd tpmp-lab10-bank/bankApp`
 3. Open project in Xcode
@@ -12,20 +12,20 @@ To install and run this project, do the following:
 5. Click `run` button to run the project
 ### Usage
 1. Launch the App:
-  - Open the app on your mobile device.
+   1. Open the app on your mobile device.
 2. Log In:
-  - Enter your login credentials (username and password) to access your account.
+   2. Enter your login credentials (username and password) to access your account.
 3. Main Menu:
-  - After logging in, you will be presented with the main menu where you can choose provided actions.
+   3. After logging in, you will be presented with the main menu where you can choose provided actions.
 4. View Accounts:
- - Select "Accounts" to see a list of your accounts. This includes active and blocked accounts, categorized by type (current, savings, credit, and card accounts).
+  4. Select "Accounts" to see a list of your accounts. This includes active and blocked accounts, categorized by type (current, savings, credit, and card accounts).
 5. Currency Exchange Rates:
-  - Navigate to the "Currency Converter" to view the latest exchange rates.
+  5. Navigate to the "Currency Converter" to view the latest exchange rates.
 6. Branch Locator:
-  - Use the map feature to find bank branches. You can search for the nearest branch based on your current location.
+  6. Use the map feature to find bank branches. You can search for the nearest branch based on your current location.
 7. Additional Features:
-  - Explore other functionalities available in the app for a complete banking experience.
+  7. Explore other functionalities available in the app for a complete banking experience.
 ### Contributing
-- [Dmitry Khodin](https://github.com/rollcookie)
-- [Maria Gorelik](https://github.com/MariaGorelik)
-- [Demid Moshkovich](https://github.com/IronGunYT)
+- [Dmitry Khodin](https://github.com/rollcookie) - Data Manager, Architect, Developer
+- [Maria Gorelik](https://github.com/MariaGorelik) -  Project Manager, Technical Writer
+- [Demid Moshkovich](https://github.com/IronGunYT) - Developer
