@@ -75,3 +75,11 @@ Main flow:
 4. User sees nearest bank branch locations for him
 
 Postconditions: user has found an appropriate bank location
+
+[Database diagram](Database diagram.md)
+
+[Design](Design.md)
+
+[Home](index.md)
+
+[Project specification](Project specification.md)  

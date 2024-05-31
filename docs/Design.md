@@ -9,3 +9,11 @@
 ### Mapping
 ![IMG_20240531_165355_402](https://github.com/fpmi-tp2024/tpmp-lab10-bank/assets/147317867/f212ac06-2fc6-4cac-9955-6755ccec9bbd)
 ![IMG_20240531_165358_503](https://github.com/fpmi-tp2024/tpmp-lab10-bank/assets/147317867/261a63be-93eb-42b3-8516-1b5647ba426e)
+
+[Database diagram](Database diagram.md)
+
+[Home](index.md)
+
+[Functional requirements](Functional requirements.md)
+
+[Project specification](Project specification.md)  
