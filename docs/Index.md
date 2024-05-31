@@ -24,3 +24,4 @@ This project is a Swift-based mobile banking application designed to provide cli
 [Design](Design.md)
 [Functional requirements](Functional requirements.md)
 [Project specification](Project specification.md)  
+
