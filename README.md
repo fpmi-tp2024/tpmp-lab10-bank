@@ -7,12 +7,13 @@ To install and run this project, do the following:
     ```bash
     git clone https://github.com/fpmi-tp2024/tpmp-lab10-bank.git
 2. Go to the project directory:
-   `cd tpmp-lab10-bank/bankApp`
+    ```bash
+    cd tpmp-lab10-bank/bankApp
 3. Open project in Xcode
 4. Select your target device or simulator
 5. Click `run` button to run the project
 ### Usage
-- Launch the App:
+1. Launch the App:
    - Open the app on your mobile device.
 2. Log In:
    - Enter your login credentials (username and password) to access your account.
