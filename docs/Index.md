@@ -20,7 +20,7 @@ This project is a Swift-based mobile banking application designed to provide cli
      - Map Display: The app includes a map feature that displays all branch locations.
      - Nearest Branch Search: Users can search for the nearest branch based on their current location, making it easy to find the closest branch for their needs.
 
-[Database diagram]()
-[Design](https://fpmi-tp2024.github.io/tpmp-gpd-lab10-bank/Design.html)
-[Functional requirements]()
-[Project specification]()
+[Database diagram](Database diagram.md)
+[Design](Design.md)
+[Functional requirements](Functional requirements.md)
+[Project specification](Project specification.md)
