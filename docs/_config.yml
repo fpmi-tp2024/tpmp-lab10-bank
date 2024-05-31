@@ -1,0 +1,8 @@
+title: Bank application
+description: Bank application project
+theme: jekyll-theme-cayman
+
+aux_links:
+  GitHub Repository: https://github.com/fpmi-tp2024/tpmp-lab10-bank
+sass:
+  style: compressed
