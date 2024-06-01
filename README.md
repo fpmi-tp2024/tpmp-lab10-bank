@@ -30,4 +30,7 @@ To install and run this project, do the following:
 ### Contributing
 - [Dmitry Khodin](https://github.com/rollcookie) - Data Manager, Architect, Developer
 - [Maria Gorelik](https://github.com/MariaGorelik) -  Project Manager, Technical Writer
-- [Demid Moshkovich](https://github.com/IronGunYT) - Developer
+- [Demid Moshkovich](https://github.com/IronGunYT) - Developer, Designer
+
+### Links and additional notes
+[GitHub pages](https://fpmi-tp2024.github.io/tpmp-lab10-bank/)
