@@ -1,0 +1,26 @@
+name: CI
+
+on:
+  push:
+    branches: 
+      - main
+  pull_request:
+    branches: 
+      - main
+
+jobs:
+  test-and-build:
+    runs-on: macos-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v3
+
+    - name: Build project
+      if: success()
+      run: |
+        xcodebuild \
+        -project 'bankApp/BankApp.xcodeproj' \
+        -scheme 'BankApp' \
+        -destination 'generic/platform=iOS' \
+        -configuration Release build CODE_SIGNING_ALLOWED=NO
